@@ -5,4 +5,4 @@ https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?a
 **List Role to Group **
 https://management.azure.com/subscriptions/${SubscriptionId}/providers/Microsoft.Authorization/roleAssignments?api-version=2022-04-01
 **List AD GROUP and Its Members
-[https://graph.microsoft.com/v1.0/groups?$select=id,displayName&$expand=members($select=id,displayName,employeeId)](https://graph.microsoft.com/v1.0/groups?$filter=startswith(displayName,'a')&$select=id,displayName&$expand=members($select=id,displayName,employeeId))
+ https://graph.microsoft.com/v1.0/groups?$filter=startswith(displayName,'a')&$select=id,displayName&$expand=members($select=id,displayName,employeeId)
