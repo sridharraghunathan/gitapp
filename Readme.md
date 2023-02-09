@@ -2,7 +2,6 @@
 https://graph.microsoft.com/v1.0/groups?$select=id,displayName,createdDateTime,description
 https://graph.microsoft.com/v1.0/groups?$filter=startswith(displayName,'azb_')+or+startswith(displayName,'azd_') +or+startswith(displayName,'azu_')+or+startswith(displayName,'azp_')&$select=id,displayName,createdDateTime,description
 
-
 **List Roles**
 https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?api-version=2022-04-01&$filter=type+eq+'CustomRole'
 
