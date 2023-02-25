@@ -15,3 +15,9 @@ https://management.azure.com/subscriptions/${SubscriptionId}/providers/Microsoft
  
  **List Managed USER Assigned Identity**
  https://management.azure.com/subscriptions/c554c36d-6465-4c03-9fe5-0e8f7983b0d3/resources?api-version=2021-04-01&$filter=resourcetype+eq+'Microsoft.ManagedIdentity/userAssignedIdentities'
+ 
+ Anti forgery Token CSRF CROSS SIDE REQUEST FORGERY
+ https://github.com/techhowdy/CMS_CORE_NG/blob/master/CMS_CORE_NG/Startup.cs
+ https://blog.elmah.io/content-security-policy-in-asp-net-mvc/
+ https://github.com/talkelley3/Xheaders/blob/master/XHead/Startup.cs
+ https://www.c-sharpcorner.com/article/secure-web-application-using-http-security-headers-in-asp-net-core/
