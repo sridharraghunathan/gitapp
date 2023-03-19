@@ -5,6 +5,8 @@ https://graph.microsoft.com/v1.0/groups?$filter=startswith(displayName,'azb_')+o
 **List Roles**
 https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?api-version=2022-04-01&$filter=type+eq+'CustomRole'
 
+AIRTABLE
+https://airtable.com/shru3MhRQDw3aMPid/tblEZK8CEzv2HtHB7
 
 **List Role to Group **
 https://management.azure.com/subscriptions/${SubscriptionId}/providers/Microsoft.Authorization/roleAssignments?api-version=2022-04-01
